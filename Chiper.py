@@ -148,13 +148,13 @@ def decrypt_message():
 # Setup GUI
 window = tk.Tk()
 window.title("Program Enkripsi dan Dekripsi")
-window.geometry("550x400")  # Ukuran jendela
+window.geometry("550x400")  
 
 # Warna background
-window.configure(bg="#f4f4f4")  # Warna latar belakang terang
+window.configure(bg="#f4f4f4")  
 
 # Membuat frame untuk input
-input_frame = tk.Frame(window, bg="#f4f4f4")  # Warna frame sama dengan background
+input_frame = tk.Frame(window, bg="#f4f4f4") 
 input_frame.pack(pady=10)
 
 # Input Teks
